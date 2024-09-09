@@ -5,6 +5,8 @@ import Navbar from './components/Navbar'
 import Technology from './components/Technology'
 import Projects from './components/Projects'
 import Contact from './components/Contact'
+import Footer from './components/Footer'
+import Achievements from './components/Achievements'
 
 const App = () => {
   return (
@@ -17,11 +19,27 @@ const App = () => {
       </div>
       <div className='container mx-auto px-5'>
         <Navbar/>
-        <Hero/>
-        <About/>
-        <Technology/>
-        <Projects/>
-        <Contact/>
+        <section id="home" className="pt-24">
+          <Hero />
+        </section>
+        <section id="about" className="pt-16">
+          <About/>
+        </section>        
+        <section id="technology" className="pt-16">
+          <Technology/>
+        </section>
+        <section id="projects" className="pt-16">
+          <Projects/>
+        </section>
+        <section id="achievements" className="pt-16">
+          <Achievements/>
+        </section>
+        <section id="contact" className="pt-16">
+          <Contact/>
+        </section>
+        <section id="footer" className="pt-16">
+          <Footer/>
+        </section>
       </div>
     </div>
   )

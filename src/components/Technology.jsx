@@ -4,6 +4,7 @@ import { DiMongodb } from "react-icons/di"
 import { TbSql } from "react-icons/tb"
 import Python from "../assets/TechIcon/Python.png"
 import SQLA from "../assets/TechIcon/SQLAlchemy.png"
+import { RiTailwindCssFill } from "react-icons/ri"
 
 const Technology =() => {
   return (
@@ -15,7 +16,10 @@ const Technology =() => {
             <div className="p-4">
                 <RiReactjsLine className="text-7xl text-cyan-400"/>
             </div>
-            <div className="p-4 justify-center">
+            <div className="p-4">
+                <RiTailwindCssFill className="text-7xl text-cyan-500"/>
+            </div>
+            <div className="p-4">
                 <img className='w-16' src={Python} alt="Python"/>
             </div>
             <div className="p-4">
