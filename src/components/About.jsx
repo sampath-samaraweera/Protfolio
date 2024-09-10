@@ -13,7 +13,7 @@ const About = () => {
           <div className="w-full lg:w-1/2 lg:p-12 flex justify-center">
             <img src={profilePic} alt="Sampath" className="rounded-lg"/>
           </div>
-          <div className="w-full lg:w-1/2 lg:p-12">
+          <div className="w-full mt-8 lg:mt-0 lg:w-1/2 lg:p-12">
             <p>{ABOUT_TEXT1}</p><br/>
             <p>{ABOUT_TEXT2}</p><br/>
             <p>{ABOUT_TEXT3}</p>

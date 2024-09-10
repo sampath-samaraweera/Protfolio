@@ -37,7 +37,7 @@ const Hero = () => {
               <SocialMedia/>
             </div>
         </div>
-        <div className="w-full lg:w-1/2 lg:p-12">
+        <div className="w-full lg:w-1/2 lg:p-12 mt-8 lg:mt-0">
             <div className="flex justify-center">
                 <img src={profilePic} alt="Sampath" className="rounded-lg"/>
             </div>
