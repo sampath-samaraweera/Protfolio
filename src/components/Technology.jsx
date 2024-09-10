@@ -5,7 +5,7 @@ import { TbSql } from "react-icons/tb"
 import Python from "../assets/TechIcon/Python.png"
 import SQLA from "../assets/TechIcon/SQLAlchemy.png"
 import { RiTailwindCssFill } from "react-icons/ri"
-import Java from "../assets/TechIcon/Java.png"
+import Java from "../assets/TechIcon/Java-logo.png"
 
 const Technology =() => {
   return (

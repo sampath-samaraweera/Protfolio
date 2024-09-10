@@ -12,9 +12,12 @@ import SLIOT from "../assets/achievements/SLIOT 1.jpg";
 
 export const HERO_CONTENT = `I'm a passionate full stack developer with a focus on backend development. I specialize in creating innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. Currently, I'm a 3rd-year undergraduate at the University of Moratuwa, pursuing a BSc (Hons) in Information Technology. My journey in development began with a deep curiosity about how things work, which has since evolved into a focused career in backend development, complemented by my interest in AI and machine learning.
-With experience in a variety of technologies, including React, React Native, Flask, Node.js, SQL, and MongoDB, I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments, enjoy solving complex problems, and am passionate about delivering high-quality solutions.
-Outside of coding, I enjoy staying active, exploring new technologies, and  I have a keen interest in 3D modeling, which allows me to blend creativity with technology.`;
+export const ABOUT_TEXT1 = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. Currently, I'm a 3rd-year undergraduate at the University of Moratuwa, pursuing a BSc (Hons) in Information Technology. My journey in development began with a deep curiosity about how things work, which has since evolved into a focused career in backend development, complemented by my interest in AI and machine learning.`;
+
+export const ABOUT_TEXT2 = `With experience in a variety of technologies, including React, React Native, Flask, Node.js, SQL, and MongoDB, I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments, enjoy solving complex problems, and am passionate about delivering high-quality solutions.`;
+
+
+export const ABOUT_TEXT3 = `Outside of coding, I enjoy staying active, exploring new technologies, and  I have a keen interest in 3D modeling, which allows me to blend creativity with technology.`;
 
 export const PROJECTS = [
   
