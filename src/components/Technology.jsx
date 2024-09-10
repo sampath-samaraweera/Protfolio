@@ -5,6 +5,7 @@ import { TbSql } from "react-icons/tb"
 import Python from "../assets/TechIcon/Python.png"
 import SQLA from "../assets/TechIcon/SQLAlchemy.png"
 import { RiTailwindCssFill } from "react-icons/ri"
+import Java from "../assets/TechIcon/Java.png"
 
 const Technology =() => {
   return (
@@ -21,6 +22,9 @@ const Technology =() => {
             </div>
             <div className="p-4">
                 <img className='w-16' src={Python} alt="Python"/>
+            </div>
+            <div className="p-4">
+                <img className='w-16' src={Java} alt="Java"/>
             </div>
             <div className="p-4">
                 <DiNodejs className="text-7xl text-green-500"/>

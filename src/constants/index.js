@@ -1,5 +1,6 @@
-import techStore from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
+import TechStore from "../assets/projects/TechStore.png";
+import LorrySwap from "../assets/projects/LorrySwap.jpeg";
+import Garden from "../assets/projects/Garden.png";
 import Portfolio from "../assets/projects/Portfolio.png";
 import MineResQ from "../assets/projects/Mine ResQ.png";
 import Rover from "../assets/projects/Rover.jpeg";
@@ -21,32 +22,34 @@ export const PROJECTS = [
     title: "Garden Cleaning Tracker",
     subTitle:"Project from University of Moratuwa",
     year: "2024 (V1 completed)",
-    image: project2,
+    image: Garden,
     description:
       "Garden Cleaning Tracker helps identify clean and unclean areas and facilitates checking and reviewing the cleanliness of those areas. This project includes a mobile app and an admin dashboard.",
     technologies: ["React", "React Native", "Tailwind CSS", "Nodejs"],
     role: "Mobile App Developer",
-    
+    link: "https://ecmm.uom.lk"
   },
   {
     title: "LorrySwap - Supply chain management system",
     subTitle:"2nd year Software Project",
     year: "2023 - 2024",
-    image: MineResQ,
+    image: LorrySwap,
     description:
       "This is a supply chain management system for connecting Manning market sellers, Farmers and Lorry Drivers.",
     technologies: ["React Native","React", "CSS", "Python Flask", "MSSQL", "SQLALCHEMY", "MUI"],
     role: "Full Stack Developer",
+    link: "https://www.linkedin.com/posts/sampath-samaraweera_innovation-agritech-logistics-activity-7239186621483397120-xO1n?utm_source=share&utm_medium=member_desktop"
   },
   {
     title: "E-Commerce Website",
     subTitle:"Personal Project",
     year: "2024 (Ongoing)",
-    image: techStore,
+    image: TechStore,
     description:
       "An e-commerce website for technical equipment with features like product listing, shopping cart, and user authentication.",
     technologies: ["React", "MUI", "CSS", "Nodejs", "MongoDB"],
     role: "Full Stack Developer",
+    link: ""
   },
   {
     title: "Portfolio Website",
@@ -57,6 +60,7 @@ export const PROJECTS = [
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["React", "Tailwind CSS", "Framer Motion"],
     role: "Frontend Developer",
+    link: "https://main--sampathsamaraweera.netlify.app"
   },
   {
     title: "MineResQ - Gas detection system",
@@ -67,6 +71,7 @@ export const PROJECTS = [
       "This is a hardware device for detecting harmful gases and temperature in mines, featuring wireless connectivity for real-time monitoring both inside and outside the mine",
     technologies: ["Arduino","C", "Blender"],
     role: "",
+    link: ""
   },
   {
     title: "ROVER 4.8",
@@ -77,6 +82,7 @@ export const PROJECTS = [
       "This rover is capable of navigating within mines, capturing real-time video streams, and measuring gas values",
     technologies: ["Arduino","C", "Blender", "HTML", "CSS"],
     role: "",
+    link: ""
   },
 ];
 
@@ -90,6 +96,7 @@ export const ACHIEVEMENTS = [
     description:
       "Organized by AIESEC in University Of Kelaniya",
     team: "Team DevDynasty",
+    link: ""
   },
   {
     position: "The Most Innovative Team",
@@ -99,6 +106,7 @@ export const ACHIEVEMENTS = [
     description:
       "Organized by AIESEC in University Of Kelaniya.",
     team: "Team DevDynasty",
+    link: ""
   },
   {
     position: "Top 15 Finalist",
@@ -108,6 +116,7 @@ export const ACHIEVEMENTS = [
     description:
       "Organized by the IEEE Student Branch of Informatics Institute of Technology.",
     team: "Team Sprite",
+    link: "https://www.linkedin.com/posts/sampath-samaraweera_codesprint8-ieee-innovation-activity-7234974722256461825-eQ0C?utm_source=share&utm_medium=member_desktop"
   },
   {
     position: "Top 10 Finalist",
@@ -117,6 +126,7 @@ export const ACHIEVEMENTS = [
     description:
       "Organized by Department of Computer Science & Engineering, University of Moratuwa.",
     team: "Team Sprite",
+    link: "https://www.linkedin.com/posts/sampath-samaraweera_sliot-top10finalists-teamsprite-activity-7183514719989739520-hZvn?utm_source=share&utm_medium=member_desktop"
   },
   {
     position: "Top 15 Finalist",
@@ -126,6 +136,7 @@ export const ACHIEVEMENTS = [
     description:
       "Organized by Department of Industrial Management,University of Kelaniya.",
     team: "Team Sprite",
+    link: "https://www.linkedin.com/posts/sampath-samaraweera_hackx-teamsprite-innovationjourney-activity-7143450342892945408-CimL?utm_source=share&utm_medium=member_desktop"
   },
 ];
 

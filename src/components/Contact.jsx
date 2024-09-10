@@ -1,7 +1,6 @@
 import { useState } from 'react';
-import { FaLinkedin, FaInstagram, FaGithub } from "react-icons/fa";
-import { FaSquareXTwitter } from "react-icons/fa6";
 import emailjs from 'emailjs-com';
+import SocialMedia from './SocialMedia';
 
 const ContactForm = () => {
   const [formData, setFormData] = useState({
@@ -44,24 +43,11 @@ const ContactForm = () => {
         <h2 className="mt-6 text-2xl font-thin lg:mt-12 lg:text-4xl text-center">
           Let&apos;s Work Together
         </h2>
-        <h2 className="mt-6 px-6 font-light text-center">I&apos;d love to hear from
+        <h2 className="my-6 px-6 font-light text-center">I&apos;d love to hear from
            you! Whether you have a project in mind or just want to say hello, feel 
            free to reach out using this form.
         </h2>
-        <div className="flex flex-wrap justify-center gap-4 mt-12 mb-6 text-3xl ">
-          <span className="text-whitecursor-pointer hover:text-blue-500"> 
-            <FaLinkedin/> 
-          </span>
-          <span className="text-whitecursor-pointer hover:text-blue-500"> 
-            <FaGithub/> 
-          </span>
-          <span className="text-whitecursor-pointer hover:text-blue-500"> 
-            <FaInstagram/> 
-          </span>
-          <span className="text-whitecursor-pointer hover:text-blue-500"> 
-            <FaSquareXTwitter/> 
-          </span>
-        </div>
+        <SocialMedia/>
       </div>
       <div className="bg-neutral-800 p-8 rounded-lg shadow-lg w-full lg:w-1/2 lg:p-12">
         <form

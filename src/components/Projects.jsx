@@ -7,9 +7,16 @@ const Projects = () => {
                 Projects
             </h1>
             <div className="flex flex-wrap item-center justify-center gap-8">
+                
                 {PROJECTS.map((project, index) => (
-                    <div key={index} className="bg-neutral-800 rounded-lg mb-8 item-center p-6 lg:max-w-[350px]
-                    lg:justify-center shadow-lg hover:-translate-y-2 hover:shadow-2xl">
+                    <div 
+                        key={index} 
+                        className="bg-neutral-800 rounded-lg mb-8 item-center p-6 lg:max-w-[350px]
+                            lg:justify-center shadow-lg hover:-translate-y-2 hover:shadow-2xl"
+                        onClick={() => {
+                            if (project.link) {
+                                window.location.href = project.link;
+                            }}}>
                         <div className="flex w-full justify-center">
                             <img
                                 src={project.image}

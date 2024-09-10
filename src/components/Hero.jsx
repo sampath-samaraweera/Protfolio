@@ -1,5 +1,6 @@
 import {HERO_CONTENT} from "../constants"
-import profilePic from "../assets/kevinRushProfile.jpg"
+import profilePic from "../assets/sampathProfile.jpg"
+import SocialMedia from "./SocialMedia";
 
 const Hero = () => {  
   
@@ -27,17 +28,18 @@ const Hero = () => {
                   {HERO_CONTENT}
               </p>
               <button className="mb-6 text-blue-500 font-semibold text-lg border-2
-              border-blue-500 px-6 py-2 rounded-lg hover:bg-blue-500 hover:text-black"
-              onClick={() => {
-                scrollToSection("contact");
-              }}>
+                border-blue-500 px-6 py-2 rounded-lg hover:bg-blue-500 hover:text-black"
+                onClick={() => {
+                  scrollToSection("contact");
+                }}>
                 Hire Me
               </button>
+              <SocialMedia/>
             </div>
         </div>
         <div className="w-full lg:w-1/2 lg:p-12">
             <div className="flex justify-center">
-                <img src={profilePic} alt="Sampath"/>
+                <img src={profilePic} alt="Sampath" className="rounded-lg"/>
             </div>
         </div>
       </div>
