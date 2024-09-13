@@ -30,7 +30,7 @@ const Hero = () => {
               <button className="mb-6 text-blue-500 font-semibold text-lg border-2
                 border-blue-500 px-6 py-2 rounded-lg hover:bg-blue-500 hover:text-black"
                 onClick={() => {
-                  scrollToSection("contact");
+                  scrollToSection("contact"); 
                 }}>
                 Hire Me
               </button>
