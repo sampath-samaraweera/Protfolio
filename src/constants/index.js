@@ -49,8 +49,8 @@ export const PROJECTS = [
     year: "2024 (Ongoing)",
     image: TechStore,
     description:
-      "An e-commerce website for technical equipment with features like product listing, shopping cart, and user authentication.",
-    technologies: ["React", "MUI", "CSS", "Nodejs", "MongoDB"],
+      "An e-commerce website for technical equipment with features like product listing, shopping cart, payment gateway and user authentication.",
+    technologies: ["React", "MUI", "CSS", "Nodejs", "MongoDB", "AWS", "Github Actions"],
     role: "Full Stack Developer",
     link: ""
   },

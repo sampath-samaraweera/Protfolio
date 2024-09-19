@@ -1,5 +1,6 @@
 import { FaLinkedin, FaInstagram, FaGithub, FaFacebook } from "react-icons/fa";
-import { FaSquareXTwitter } from "react-icons/fa6";
+import { FaSquareXTwitter, FaGitlab } from "react-icons/fa6";
+// import { FaGitlab } from "react-icons/fa6";
 // import { SiGmail } from "react-icons/si";
 
 const SocialMedia = () => {
@@ -16,6 +17,12 @@ const SocialMedia = () => {
             onClick={() => window.location.href = "https://github.com/sampath-samaraweera"}
         > 
             <FaGithub/> 
+        </span>
+        <span 
+            className="text-whitecursor-pointer hover:text-blue-500"
+            onClick={() => window.location.href = "https://gitlab.com/sampathsamaraweera28"}
+        > 
+            <FaGitlab/> 
         </span>
         <span 
             className="text-whitecursor-pointer hover:text-blue-500"
