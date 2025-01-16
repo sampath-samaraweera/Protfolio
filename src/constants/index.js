@@ -5,6 +5,7 @@ import Portfolio from "../assets/projects/Portfolio.png";
 import MineResQ from "../assets/projects/Mine ResQ.png";
 import Rover from "../assets/projects/Rover.jpeg";
 import CodeSprint from "../assets/achievements/CodeSprint 8.jpg";
+import TADHack from "../assets/achievements/TADHack.jpg";
 import Hackventure1 from "../assets/achievements/Hackventure1 1.jpg";
 import Hackventure2 from "../assets/achievements/Hackventure1 2.jpg";
 import HackX8 from "../assets/achievements/HackX 8.jpeg";
@@ -90,7 +91,16 @@ export const PROJECTS = [
 ];
 
 export const ACHIEVEMENTS = [
-  
+  {
+    position: "Winner",
+    competitionName:"TADHack Sri Lanka 2024",
+    year: "2024",
+    image: TADHack,
+    description:
+      "Organized by hSenid Mobile Solutions (Pvt) Ltd and Ideamart",
+    team: "Team DevDynasty",
+    link: ""
+  },
   {
     position: "1st Runners Up",
     competitionName:"HackVenture 1.0",
